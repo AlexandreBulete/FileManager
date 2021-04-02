@@ -1,0 +1,11 @@
+{
+    "type": "composer-plugin",
+    "name": "boeki/footer_center",
+    "description": "Read CSV and post to magento",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
