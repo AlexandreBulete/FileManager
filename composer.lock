@@ -4,8 +4,9 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3180bdf198cfd2aca5efdab2164fa03e",
-    "packages": [
+    "content-hash": "d1b58c24760691dc748d248a5ec16ba5",
+    "packages": [],
+    "packages-dev": [
         {
             "name": "boeki/universal-connector",
             "version": "0.0.6",
@@ -43,13 +44,14 @@
             "time": "2021-04-02T17:15:42+00:00"
         }
     ],
-    "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "php": ">=5.3.0"
+    },
     "platform-dev": [],
     "plugin-api-version": "2.0.0"
 }
