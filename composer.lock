@@ -1,0 +1,55 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "3180bdf198cfd2aca5efdab2164fa03e",
+    "packages": [
+        {
+            "name": "boeki/universal-connector",
+            "version": "0.0.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/JamesStandbridge/UniversalConnector.git",
+                "reference": "a505bf05024b34be0f73890a7e3c4f35445a5f02"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/JamesStandbridge/UniversalConnector/zipball/a505bf05024b34be0f73890a7e3c4f35445a5f02",
+                "reference": "a505bf05024b34be0f73890a7e3c4f35445a5f02",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "UniversalConnector\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "jamesstandbridge",
+                    "email": "james.standbridge.git@gmail.com"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/JamesStandbridge/UniversalConnector/issues",
+                "source": "https://github.com/JamesStandbridge/UniversalConnector/tree/0.0.6"
+            },
+            "time": "2021-04-02T17:15:42+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}

@@ -6,5 +6,6 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'App\\' => array($baseDir . '/src'),
+    'WalkerSpider\\FileManager\\' => array($baseDir . '/src'),
+    'UniversalConnector\\' => array($vendorDir . '/boeki/universal-connector/src'),
 );

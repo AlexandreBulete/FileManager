@@ -7,16 +7,24 @@ namespace Composer\Autoload;
 class ComposerStaticInit4819f5eacc219d7749eab4702f4b6f4b
 {
     public static $prefixLengthsPsr4 = array (
-        'A' => 
+        'W' => 
         array (
-            'App\\' => 4,
+            'WalkerSpider\\FileManager\\' => 25,
+        ),
+        'U' => 
+        array (
+            'UniversalConnector\\' => 19,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'App\\' => 
+        'WalkerSpider\\FileManager\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
+        ),
+        'UniversalConnector\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/boeki/universal-connector/src',
         ),
     );
 

@@ -1,2 +1,6 @@
 /data
+/project
+/etc
+/vendor/boeki
 .DS_Store
+index.php

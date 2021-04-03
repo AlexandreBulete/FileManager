@@ -1,11 +1,37 @@
 {
-    "type": "composer-plugin",
-    "name": "boeki/footer_center",
-    "description": "Read CSV and post to magento",
-    "require": {},
+    "name": "walkerspider/filemanager",
+    "description": "Manager files retrieving and manipulating data as wished. This data can be used in an Universal Connector API.",
+    "keywords": [
+        "Walker", "Spider", "Walker Spider", "file", "manager", "filemanager", "csv", "array"
+    ],
+    "homepage": "https://walkerspider.com/packages/filemanager",
+    "authors": [
+        {
+            "name": "Alexandre Buleté",
+            "email": "bulete.alexandre@gmail.com",
+            "homepage": "https://walkerspider.com",
+            "role": "Lead "
+        }
+    ],
+    "support": {
+        "email": "bulete.alexandre@gmail.com",
+        "docs": "https://walkerspider.com/packages/filemanager"
+    },
+    "type": "library",
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.0",
+        "boeki/universal-connector": "^0.0.6"
+    },
     "autoload": {
         "psr-4": {
-            "App\\": "src/"
+            "WalkerSpider\\FileManager\\": "src/"
         }
-    }
+    },
+    "funding": [
+        {
+            "type": "other",
+            "url": "https://walkerspider.com/faire-un-don"
+        }
+    ]
 }
