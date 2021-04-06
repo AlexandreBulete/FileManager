@@ -1,6 +1,6 @@
 /data
 /project
 /etc
-/vendor/boeki
+/vendor
 .DS_Store
 index.php

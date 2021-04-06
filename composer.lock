@@ -4,26 +4,26 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d1b58c24760691dc748d248a5ec16ba5",
-    "packages": [],
-    "packages-dev": [
+    "content-hash": "b839a41f149531150af6d8ab9aa5c6d5",
+    "packages": [
         {
             "name": "boeki/universal-connector",
-            "version": "0.0.6",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/JamesStandbridge/UniversalConnector.git",
-                "reference": "a505bf05024b34be0f73890a7e3c4f35445a5f02"
+                "reference": "e5eb8435b66ac95aef8a318995a2d4827a680a18"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/JamesStandbridge/UniversalConnector/zipball/a505bf05024b34be0f73890a7e3c4f35445a5f02",
-                "reference": "a505bf05024b34be0f73890a7e3c4f35445a5f02",
+                "url": "https://api.github.com/repos/JamesStandbridge/UniversalConnector/zipball/e5eb8435b66ac95aef8a318995a2d4827a680a18",
+                "reference": "e5eb8435b66ac95aef8a318995a2d4827a680a18",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.0"
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -39,14 +39,17 @@
             ],
             "support": {
                 "issues": "https://github.com/JamesStandbridge/UniversalConnector/issues",
-                "source": "https://github.com/JamesStandbridge/UniversalConnector/tree/0.0.6"
+                "source": "https://github.com/JamesStandbridge/UniversalConnector/tree/master"
             },
-            "time": "2021-04-02T17:15:42+00:00"
+            "time": "2021-04-06T08:44:18+00:00"
         }
     ],
+    "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "boeki/universal-connector": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
