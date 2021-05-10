@@ -114,8 +114,18 @@ class CsvToArray {
                 }
             }
         } else {
-            return $this->result;
+            return $this;
         }
+    }
+
+    /**
+     * Get all data without applying group, select etc…
+     */
+    public function all() {
+        // foreach ($this->data as $data) {
+        //     $this->result[]
+        // }
+        return $this->result;
     }
 
     /**
@@ -144,6 +154,40 @@ class CsvToArray {
                 throw new Exception("Column $col not found");
             }
         }
+    }
+
+    /**
+     * Clear firstline or not,
+     * name keys (instead or 0, 1, 2 … indexes)
+     * clear some useless or empty columns (to defined in a param array),
+     * clear some Strings (spaces etc…)
+     * @param Boolean $headline
+     * @param Array $indexes
+     */
+    public function clear($headline = true, $namedKey = true, Array $replaceStrings, Array $indexes) {
+        $data = $this->data;
+        $headline ? array_shift($data) : '';
+        $newData = [];
+        foreach ($indexes as $index) {
+            foreach ($data as $item) {
+                $newItem = [];
+                unset($item[$index]);
+                for ($i=0; $i < count($item) ; $i++) { 
+                    if (count($replaceStrings) > 0) {
+                        $item[$i] = str_replace(' ', '', $item[$i]);
+                    }
+                    if ( $namedKey )  {
+                        $keyName = strtolower($this->data[0][$i]);
+                        $newItem[$keyName] = $item[$i];
+                    } else {
+                        array_push($newItem, $item[$i]);
+                    }
+                }
+                array_push($newData, $newItem);
+            }
+        }
+        $this->result = $newData;
+        return $this;
     }
 
 }

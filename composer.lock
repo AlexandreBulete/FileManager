@@ -4,20 +4,57 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b839a41f149531150af6d8ab9aa5c6d5",
+    "content-hash": "f8e07b504e760cfaec3ff2525c29b621",
     "packages": [
+        {
+            "name": "boeki/log-master",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/JamesStandbridge/LogMaster.git",
+                "reference": "b135046369fa713336fa0e764c46f1d4c2218948"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/JamesStandbridge/LogMaster/zipball/b135046369fa713336fa0e764c46f1d4c2218948",
+                "reference": "b135046369fa713336fa0e764c46f1d4c2218948",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "LogMaster\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "jamesstandbridge",
+                    "email": "james.standbridge.git@gmail.com"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/JamesStandbridge/LogMaster/issues",
+                "source": "https://github.com/JamesStandbridge/LogMaster/tree/master"
+            },
+            "time": "2021-04-06T13:16:57+00:00"
+        },
         {
             "name": "boeki/universal-connector",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/JamesStandbridge/UniversalConnector.git",
-                "reference": "e5eb8435b66ac95aef8a318995a2d4827a680a18"
+                "reference": "3fba774fd3bd23f077ad1d07b1bd6cdd6729fdd7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/JamesStandbridge/UniversalConnector/zipball/e5eb8435b66ac95aef8a318995a2d4827a680a18",
-                "reference": "e5eb8435b66ac95aef8a318995a2d4827a680a18",
+                "url": "https://api.github.com/repos/JamesStandbridge/UniversalConnector/zipball/3fba774fd3bd23f077ad1d07b1bd6cdd6729fdd7",
+                "reference": "3fba774fd3bd23f077ad1d07b1bd6cdd6729fdd7",
                 "shasum": ""
             },
             "require": {
@@ -41,14 +78,77 @@
                 "issues": "https://github.com/JamesStandbridge/UniversalConnector/issues",
                 "source": "https://github.com/JamesStandbridge/UniversalConnector/tree/master"
             },
-            "time": "2021-04-06T08:44:18+00:00"
+            "time": "2021-04-07T13:15:23+00:00"
+        },
+        {
+            "name": "walkerspider/intelscan",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AlexandreBulete/IntelScan.git",
+                "reference": "05b10a9e5a24e109690f91e870905ea8b78f3342"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AlexandreBulete/IntelScan/zipball/05b10a9e5a24e109690f91e870905ea8b78f3342",
+                "reference": "05b10a9e5a24e109690f91e870905ea8b78f3342",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "WalkerSpider\\IntelScan\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Alexandre Buleté",
+                    "email": "bulete.alexandre@gmail.com",
+                    "homepage": "https://walkerspider.com",
+                    "role": "Lead Developer"
+                }
+            ],
+            "description": "An intelligent package to scan directories or databases and realize actions easly.",
+            "homepage": "https://walkerspider.com/packages/intelscan",
+            "keywords": [
+                "Intel",
+                "Walker Spider",
+                "database",
+                "directories",
+                "directory",
+                "intelligent",
+                "intelscan",
+                "scan",
+                "spider",
+                "walker"
+            ],
+            "support": {
+                "docs": "https://walkerspider.com/packages/intelscan",
+                "email": "bulete.alexandre@gmail.com",
+                "issues": "https://github.com/AlexandreBulete/IntelScan/issues",
+                "source": "https://github.com/AlexandreBulete/IntelScan/tree/master"
+            },
+            "funding": [
+                {
+                    "url": "https://walkerspider.com/faire-un-don",
+                    "type": "other"
+                }
+            ],
+            "time": "2021-04-06T14:54:26+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "boeki/universal-connector": 20
+        "boeki/universal-connector": 20,
+        "walkerspider/intelscan": 20,
+        "boeki/log-master": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

@@ -10,7 +10,7 @@
             "name": "Alexandre Buleté",
             "email": "bulete.alexandre@gmail.com",
             "homepage": "https://walkerspider.com",
-            "role": "Lead "
+            "role": "Lead Developer"
         }
     ],
     "support": {
@@ -21,7 +21,9 @@
     "minimum-stability": "dev",
     "require": {
         "php": ">=5.3.0",
-        "boeki/universal-connector": "dev-master"
+        "boeki/universal-connector": "dev-master",
+        "walkerspider/intelscan": "dev-master",
+        "boeki/log-master": "dev-master"
     },
     "autoload": {
         "psr-4": {
